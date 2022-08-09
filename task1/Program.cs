@@ -14,9 +14,9 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 int sqrt = num2 * num2;
 if (num1 == sqrt)
     {
-    Console.WriteLine($"Число {num2} являктся квадратом числа: "+ num1);
+    Console.WriteLine($"Число {num1} являктся квадратом числа: "+ num2);
     }
 else
     {
-     Console.WriteLine($"Число {num2} не являктся квадратом числа: "+ num1);   
+     Console.WriteLine($"Число {num1} не являктся квадратом числа: "+ num2);   
     }
